@@ -10,7 +10,7 @@ public class MediaLista {
 		}
 		double s = 0;
 		for (int n : numeros) {
-			s += n / numeros.size();
+			s += (double) n / numeros.size();
 		}
 		return s;
 	}
