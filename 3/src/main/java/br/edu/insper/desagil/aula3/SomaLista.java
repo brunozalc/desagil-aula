@@ -4,7 +4,7 @@ import java.util.List;
 
 public class SomaLista {
 
-	public int calcula(List numeros) {
+	public int calcula(List<Integer> numeros) {
 		int s = 0;
 		for (int i : numeros) {
 			s += i;

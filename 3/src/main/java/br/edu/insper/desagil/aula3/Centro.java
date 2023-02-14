@@ -11,7 +11,7 @@ public class Centro {
 		for (double nota : notas.values()) {
 			if (min > nota) {
 				min = nota;
-			} else if (max < nota) {
+			} if (max < nota) {
 				max = nota;
 			}
 		}
