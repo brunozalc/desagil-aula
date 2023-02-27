@@ -1,10 +1,6 @@
 package br.edu.insper.desagil.aula5.cbf;
 
 public class Campeonato {
-	private int calculaDiferenca(Partida partida) {
-		return partida.getGolsVisitante() - partida.getGolsMandante();
-	}
-
 	public Equipe defineVencedor(Partida partida) {
 		int diferenca = calculaDiferenca(partida);
 		if (diferenca == 0) {
@@ -25,5 +21,9 @@ public class Campeonato {
 			return partida.getVisitante();
 		}
 		return partida.getMandante();
+	}
+
+	private int calculaDiferenca(Partida partida) {
+		return partida.getGolsVisitante() - partida.getGolsMandante();
 	}
 }

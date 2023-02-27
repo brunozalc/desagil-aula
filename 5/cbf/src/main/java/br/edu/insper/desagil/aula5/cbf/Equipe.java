@@ -16,6 +16,10 @@ public class Equipe {
 		return nome;
 	}
 
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
 	public Jogador acessaJogador(int camisa) {
 		return jogadores.get(camisa);
 	}
