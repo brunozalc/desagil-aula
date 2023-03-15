@@ -3,27 +3,27 @@ package br.edu.insper.desagil.aula10;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class FileManagerTest {
+class FileManagerTest {
 	private FileManager f;
 
 	@BeforeEach
-	private void setUp() {
+	void setUp() {
 		f = new FileManager();
 	}
 
 	@Test
-	public void load() {
+	void load() {
 	}
 
 	@Test
-	public void loadMissing() {
+	void loadMissing() {
 	}
 
 	@Test
-	public void loadInvalid() {
+	void loadInvalid() {
 	}
 
 	@Test
-	public void save() {
+	void save() {
 	}
 }
